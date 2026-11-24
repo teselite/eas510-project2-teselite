@@ -1,0 +1,25 @@
+{
+  "mode": "full",
+  "dataset": "data/raw/USvideos.csv",
+  "raw_rows": 40949,
+  "cleaned_unique_videos": 6351,
+  "train_size": 5080,
+  "test_size": 1271,
+  "amplified_view_threshold": 1888184.0,
+  "positive_class_rate": 0.2001,
+  "model": "LogisticRegression (baseline)",
+  "precision": 0.2998,
+  "recall": 0.6693,
+  "f1_score": 0.4141,
+  "roc_auc": 0.7045,
+  "confusion_matrix": [
+    [
+      620,
+      397
+    ],
+    [
+      84,
+      170
+    ]
+  ]
+}
