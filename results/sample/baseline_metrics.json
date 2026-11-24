@@ -1,0 +1,25 @@
+{
+  "mode": "sample",
+  "dataset": "data/sample/youtube_sample.csv",
+  "raw_rows": 2531,
+  "cleaned_unique_videos": 1974,
+  "train_size": 1579,
+  "test_size": 395,
+  "amplified_view_threshold": 2176154.0,
+  "positive_class_rate": 0.2001,
+  "model": "LogisticRegression (baseline)",
+  "precision": 0.2919,
+  "recall": 0.5949,
+  "f1_score": 0.3917,
+  "roc_auc": 0.639,
+  "confusion_matrix": [
+    [
+      202,
+      114
+    ],
+    [
+      32,
+      47
+    ]
+  ]
+}
